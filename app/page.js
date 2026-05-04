@@ -57,7 +57,7 @@ export default function Home() {
   };
 
   const platforms = ['Amazon', 'Temu', 'TikTok', 'Facebook', 'Instagram'];
-  languages = ['zh', 'en', 'es', 'fr', 'de', 'ja', 'ko'];
+  const languages = ['zh', 'en', 'es', 'fr', 'de', 'ja', 'ko'];
 
   const genText = () => {
     if (points < 10) return alert(t.noPoints);
