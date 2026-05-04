@@ -50,7 +50,7 @@ export default function Home() {
     noPoints: 'Not enough points'
   };
 
-  // 这两行是关键，之前的代码里漏掉了！
+  // ✅ 这两行必须存在！
   const platforms = ['Amazon', 'Temu', 'TikTok', 'Facebook', 'Instagram'];
   const languages = ['zh', 'en', 'es', 'fr', 'de', 'ja', 'ko'];
 
